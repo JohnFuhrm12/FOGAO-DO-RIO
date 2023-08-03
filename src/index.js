@@ -1,5 +1,6 @@
 import { loadMain } from './mainPage.js';
 import { loadMenu } from './menuPage.js';
+import { loadContact } from './contactPage.js';
 
 const content = document.getElementById('content');
 
@@ -24,6 +25,7 @@ function loadListeners() {
     const contactTab = document.getElementById('contact');
     contactTab.addEventListener('click', function() {
         content.innerHTML = '';
+        loadContact();
         loadListeners();
         console.log('loaded contact');
     });

@@ -63,3 +63,65 @@ html, body {
     margin: 0 auto;
     text-align: center;
 }
+
+#menuSection {
+    margin-top: 40%;
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+
+#contactSection {
+    margin-top: 40%;
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+
+#contactFormBlock {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: left;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    font-size: 20px;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+.label {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    font-size: 20px;
+    padding: 3%;
+    border-radius: 15px;
+    min-height: 150px;
+}
+
+#formButton {
+    font-size: 20px;
+    padding: 3%;
+    border-radius: 25px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 80%;
+    transition: 0.5s;
+    border: solid 2px white;
+}
+
+
+#formButton:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
