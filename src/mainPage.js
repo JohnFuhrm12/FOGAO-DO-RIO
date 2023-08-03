@@ -1,6 +1,8 @@
 const loadMain = () => {
     const content = document.getElementById('content');
 
+    content.style.backgroundImage='url(https://res.cloudinary.com/dvmw658s9/image/upload/v1691027297/x0r2h32amkyqvjkxfwko.jpg)';
+
     // Navbar Creation
     const navbar = document.createElement('div');
     navbar.id = 'navbar';

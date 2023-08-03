@@ -16,7 +16,8 @@ html, body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
+    transition: 0.3s;
 }
 
 #navbar {
@@ -124,4 +125,29 @@ html, body {
     transition: 0.5s;
     background-color: black;
     color: white;
+}
+
+.menuBlockRow {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+
+.menuBlock {
+    max-width: 400px;
+}
+
+.menuBlockTitle {
+    font-size: 30px;
+    border-bottom: solid 2px white;
+    padding-bottom: 15px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.menuBlockInfo {
+    font-size: 18px;
 }

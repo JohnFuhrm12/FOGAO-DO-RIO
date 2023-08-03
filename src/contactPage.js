@@ -1,6 +1,8 @@
 const loadContact = () => {
     const content = document.getElementById('content');
 
+    content.style.backgroundImage='url(https://res.cloudinary.com/dvmw658s9/image/upload/v1691040694/whmkrvujt0pgfnoltoow.jpg)';
+
     // Navbar Creation
     const navbar = document.createElement('div');
     navbar.id = 'navbar';
