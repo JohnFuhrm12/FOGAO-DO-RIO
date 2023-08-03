@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("window.onload = function() {\r\n    console.log('working');\r\n}\n\n//# sourceURL=webpack://restuarant/./src/index.js?");
+eval("window.onload = function() {\r\n    console.log('working');\r\n};\n\n//# sourceURL=webpack://restuarant/./src/index.js?");
 
 /***/ })
 
