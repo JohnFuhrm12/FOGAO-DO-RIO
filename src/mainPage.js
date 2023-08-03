@@ -1,4 +1,4 @@
-const loadMain = window.onload = function() {
+const loadMain = () => {
     const content = document.getElementById('content');
 
     // Navbar Creation
@@ -43,4 +43,4 @@ const loadMain = window.onload = function() {
     aboutSection.appendChild(paragraphBlock);
 };
 
-export default loadMain;
+export {loadMain};

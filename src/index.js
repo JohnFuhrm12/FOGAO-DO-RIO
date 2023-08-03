@@ -1,4 +1,6 @@
-import {loadMain} from './mainPage';
+import {loadMain} from './mainPage.js';
 
-// Load Main Page HTML
-mainPage();
+// Load Main Page HTML Onload
+window.onload = function() {
+    loadMain();
+};
