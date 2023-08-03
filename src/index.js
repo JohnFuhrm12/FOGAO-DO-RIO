@@ -2,16 +2,17 @@ import { loadMain } from './mainPage.js';
 import { loadMenu } from './menuPage.js';
 import { loadContact } from './contactPage.js';
 
-const content = document.getElementById('content');
+import './styles.css';
 
 // Nabvar Event Listeners
 function loadListeners() {
+    const content = document.getElementById('content');
+
     const homeTab = document.getElementById('home');
     homeTab.addEventListener('click', function() {
         content.innerHTML = '';
         loadMain();
         loadListeners();
-        console.log('loaded home');
     });
 
     const menuTab = document.getElementById('menu');
@@ -19,7 +20,6 @@ function loadListeners() {
         content.innerHTML = '';
         loadMenu();
         loadListeners();
-        console.log('loaded menu');
     });
 
     const contactTab = document.getElementById('contact');
@@ -27,7 +27,6 @@ function loadListeners() {
         content.innerHTML = '';
         loadContact();
         loadListeners();
-        console.log('loaded contact');
     });
 };
 
